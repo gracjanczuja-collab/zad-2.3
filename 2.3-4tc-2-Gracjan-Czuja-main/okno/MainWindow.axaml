@@ -1,0 +1,16 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="okno.MainWindow"
+        Title="Warsztat" Width="600" Height="400" Background="#FFF8E7" CanResize="False">
+    <StackPanel Spacing="12" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Text="Warsztat" FontSize="32" Foreground="DarkOrange" HorizontalAlignment="Center" />
+        <TextBlock x:Name="Podpis" Text="Moje drugie okno" HorizontalAlignment="Center" />
+        <Button Content="Kliknij mnie" HorizontalAlignment="Center" Click="Przycisk_Click" />
+        <TextBox PlaceholderText="Wpisz swoje imię" Width="200" />
+        <Slider Minimum="0" Maximum="100" Value="50" Width="200" />
+        <CheckBox Content="Zapamiętaj mnie" HorizontalAlignment="Center" />
+    </StackPanel>
+</Window>
